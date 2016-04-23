@@ -1,0 +1,9 @@
+import edu.stanford.nlp.math.*;
+
+public class SloppyMathExplorer {
+
+	public static void main(String[] args) {
+		double x = 10.123456789;
+		System.out.println(x);
+	}
+}

@@ -14,7 +14,8 @@ compileJava.options.encoding = 'UTF-8'
 version = '3.6.0'
 
 // Gradle application plugin
-mainClassName = "edu.stanford.nlp.pipeline.StanfordCoreNLP"
+// mainClassName = "edu.stanford.nlp.pipeline.StanfordCoreNLP"
+mainClassName = System.getProperty("mainClass") // amit
 
 // Jar creation
 jar {
